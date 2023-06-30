@@ -1,0 +1,163 @@
+/*font-family: 'Delicious Handrawn',
+cursive;
+font-family: 'Handlee',
+cursive;
+font-family: 'Palanquin',
+sans-serif;
+font-family: 'Poppins',
+sans-serif;
+font-family: 'Varela Round',
+sans-serif;*/
+
+
+html,
+body {
+    background-color: #fefae0;
+}
+
+.alert-info {
+    font-family: 'Handlee', cursive;
+}
+
+.icons {
+    display: flex;
+    justify-content: end;
+}
+
+#mainNavbar {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.dropdown-item:hover {
+    background-color: #dda15e;
+    color: white;
+}
+
+.carousel-imgs {
+    height: 450px;
+    justify-content: center;
+}
+
+.carousel-inner {
+    border-radius: 15px;
+}
+
+.info {
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 10px;
+}
+
+.info {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top: 2px solid #dda15e;
+}
+
+#diy-kit,
+#quiller-tools,
+#quiller-strips,
+#quiller-refill-pack,
+#infinity-storage-box {
+    border-bottom: 2px solid #dda15e;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#diy-kit:hover,
+#quiller-tools:hover,
+#quiller-strips:hover,
+#quiller-refill-pack:hover {
+    color: #dda15e;
+    cursor: pointer;
+}
+
+#infinity-storage-box {
+    border-bottom: none;
+}
+
+#infinity-storage-box:hover {
+    border-bottom: none;
+    color: #dda15e;
+    cursor: pointer;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.info-text {
+    color: #000;
+}
+
+.navbar-toggler:hover {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.info-text {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.card {
+    margin: 20px;
+}
+
+.card-img-top {
+    height: 240px;
+}
+
+.carousel-inner {
+    transition: 200ms;
+}
+
+.bbtn {
+    padding-top: 10px;
+}
+
+.footer {
+    background-color: #dda15e;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.footer-text {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-text:hover {
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.nav-brand {
+    font-weight: 500;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.card-title {
+    color: #bc6c25;
+}
+
+.card-text {
+    color: #606c38;
+}
+
+.price {
+    font-weight: 300;
+    color: grey;
+}

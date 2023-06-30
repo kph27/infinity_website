@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity CraftWork</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Handlee&family=Palanquin:wght@200&family=Poppins:wght@100&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="app.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="alert alert-info" role="alert" style="text-align: center; margin-bottom: 0; border-radius: 0;">
+        Use Promo code: <b><i>PRABHA20</i></b> for 20% off on all products!
+    </div>
+
+    <div class="navbar sticky-top justify-content-center row py-0">
+        <div class=" col-12 d-flex justify-content-center" style="background-color: #fefae0; align-items: center;">
+            <img src="Images/Logo.png" alt="" href="index.html" width="75" height="75">
+            <img src="Images/Title.png" alt="" href="index.html" width="200" height="75">
+        </div>
+        <nav class="navbar navbar-expand-md" style="background-color: #dda15e;">
+            <div class="container-fluid">
+                <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand mx-3" href="index.html">Home</a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#carousel">All Products</a></li>
+                                <li><a class="dropdown-item" href="#diy-kit">DIY Kits</a></li>
+                                <li><a class="dropdown-item" href="#quiller-tools">Quiller tools</a></li>
+                                <li><a class="dropdown-item" href="#quiller-strips">Quilling Strips</a></li>
+                                <li><a class="dropdown-item" href="#quiller-refill-pack">Quilling Refill Pack</a></li>
+                                <li><a class="dropdown-item" href="#infinity-storage-box">Infinity Storage Box</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button type="button" class="btn btn-outline-primary mx-3"><ion-icon
+                                name="search-outline"></button>
+                        <button type="button" class="btn btn-outline-success mx-3"><ion-icon name="person-outline"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal"></button>
+                        <button type="button" class="btn btn-outline-warning mx-3" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal1"><ion-icon name="cart-outline"></ion-icon></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Login</button>
+                    <button type="button" class="btn btn-primary" data-bs-target="#exampleModalToggle2"
+                        data-bs-toggle="modal">Signup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Sign Up <br>
+                        (It's easy and quick)
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-4 position-relative">
+                            <label for="validationTooltip01" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="validationTooltip01" value="Kattupalli"
+                                required>
+                            <div class="valid-tooltip">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-6 position-relative">
+                            <label for="validationTooltip02" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="validationTooltip02" value="Prabhath" required>
+                            <div class="valid-tooltip">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-6 position-relative">
+                            <label for="validationTooltipUsername" class="form-label">Username</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                                <input type="text" class="form-control" id="validationTooltipUsername"
+                                    aria-describedby="validationTooltipUsernamePrepend" required>
+                                <div class="invalid-tooltip">
+                                    Please choose a unique and valid username.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 position-relative">
+                            <label for="validationTooltip02" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="validationTooltip02" value="12345678"
+                                required>
+                            <div class="valid-tooltip">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-6 position-relative">
+                            <label for="validationTooltip03" class="form-label">City</label>
+                            <input type="text" class="form-control" id="validationTooltip03" required>
+                            <div class="invalid-tooltip">
+                                Please provide a valid city.
+                            </div>
+                        </div>
+                        <div class="col-md-3 position-relative">
+                            <label for="validationTooltip04" class="form-label">State</label>
+                            <select class="form-select" id="validationTooltip04" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>...</option>
+                            </select>
+                            <div class="invalid-tooltip">
+                                Please select a valid state.
+                            </div>
+                        </div>
+                        <div class="col-md-3 position-relative">
+                            <label for="validationTooltip05" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="validationTooltip05" required>
+                            <div class="invalid-tooltip">
+                                Please provide a valid zip.
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"
+                        type="submit">Sign
+                        Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-4" style="max-width: 860px;" id="carousel">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner shadow-lg rounded">
+                <div class="carousel-item active">
+                    <img src="Images/Carousel/1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item ">
+                    <img src="Images/Carousel/2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item ">
+                    <img src="Images/Carousel/7.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item ">
+                    <img src="Images/Carousel/8.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/Carousel/3.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item ">
+                    <img src="Images/Carousel/4.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item ">
+                    <img src="Images/Carousel/5.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item ">
+                    <img src="Images/Carousel/6.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Cart</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Your Infinity Cart is Empty.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p style="text-align: center; font-weight: 600;">Bringing Joy Of Creativity</p>
+    <p style="text-align: justify; margin-left: 15px;margin-right: 15px; color: #283618;">Quilling
+        is an art form that
+        involves the use of
+        strips
+        of paper that are rolled, shaped, and glued together to create decorative designs. The paper is rolled, looped,
+        curled, twisted, and otherwise manipulated to create shapes that make up designs to decorate greetings cards,
+        pictures, boxes, eggs, and to make models, jewelry, mobiles, etc. Quilling starts with rolling a strip of paper
+        into a coil and then pinching the coil into shapes that can be glued together. There are advanced techniques and
+        different sized paper that are used to create 3D miniatures, abstract art, flowers, and portraits
+        among many things.</p>
+    <div class="info ">
+        <div id="diy-kit">
+            <h2>DIY KIT</h2>
+            <div class="info-text">
+                <div class="card shadow p-3 mb-5" style="width: 23rem;">
+                    <img src="Images/DIY KITS/1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">DIY Flower Quilling Kit</h5>
+                        <p class="price">Price- 799/-</p>
+                        <p class="card-text">
+                        <ul>
+                            <li class="card-text">Printed Canvas 297mm x 210mm</li>
+                            <li class="card-text">Step by step photo Instructions</li>
+                            <li class="card-text">3mm Quilling Strips</li>
+                            <li class="card-text">tweezer</li>
+                            <li class="card-text">Glue</li>
+                        </ul>
+                        </p>
+                        <button type="button" class="bbtn btn btn-outline-warning mx-2" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal1"><ion-icon name="cart-outline"></ion-icon></button> Add to
+                        cart
+                    </div>
+                </div>
+                <div class="card shadow p-3 mb-5" style="width: 23rem;">
+                    <img src="Images/DIY KITS/2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">DIY Deer Quilling Kit</h5>
+                        <p class="price">Price- 799/-</p>
+                        <p class="card-text">
+                        <ul>
+                            <li class="card-text">Printed Canvas 297mm x 210mm</li>
+                            <li class="card-text">Step by step photo Instructions</li>
+                            <li class="card-text">3mm Quilling Strips</li>
+                            <li class="card-text">tweezer</li>
+                            <li class="card-text">Glue</li>
+                        </ul>
+                        </p>
+                        <button type="button" class="bbtn btn btn-outline-warning mx-2" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal1"><ion-icon name="cart-outline"></ion-icon></button> Add to
+                        cart
+                    </div>
+                </div>
+                <div class="card shadow p-3 mb-5" style="width: 23rem;">
+                    <img src="Images/DIY KITS/3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">DIY Butterfly Quilling Kit</h5>
+                        <p class="price">Price- 799/-</p>
+                        <p class="card-text">
+                        <ul>
+                            <li class="card-text">Printed Canvas 297mm x 210mm</li>
+                            <li class="card-text">Step by step photo Instructions</li>
+                            <li class="card-text">3mm Quilling Strips</li>
+                            <li class="card-text">tweezer</li>
+                            <li class="card-text">Glue</li>
+                        </ul>
+                        </p>
+                        <button type="button" class="bbtn btn btn-outline-warning mx-2" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal1"><ion-icon name="cart-outline"></ion-icon></button> Add to
+                        cart
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="quiller-tools">
+            <h2>QUILLER TOOLS</h2>
+            <div class="info-text">
+                <div class="card shadow p-3 mb-5" style="width: 23rem;">
+                    <img src="Images/Quiller tools/1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Quilling pen Series</h5>
+                        <p class="price">Price- 599/-</p>
+                        <p class="card-text">
+                        <ul>
+                            <li class="card-text">5 different uses</li>
+                            <li class="card-text">4 pens, 1 needle</li>
+                            <li class="card-text">Slotted from: long to short, wide to deep</li>
+                        </ul>
+                        </p>
+                        <button type="button" class="bbtn btn btn-outline-warning mx-2" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal1"><ion-icon name="cart-outline"></ion-icon></button> Add to
+                        cart
+                    </div>
+                </div>
+                <div class="card shadow p-3 mb-5" style="width: 23rem;">
+                    <img src="Images/Quiller tools/2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Black Quilling coiler</h5>
+                        <p class="price">Price- 999/-</p>
+                        <p class="card-text">
+                            Now make tight coils in just a matter of seconds. you can use an attachment to make bigger
+                            tight coils. Quiller is handy and battery operated which saves your time from making coils
+                            manually and gives your artwork a professional touch.<br>
+                        <ul>
+                            <li class="card-text">Battery operated - 2 AA batteries required</li>
+                            <li class="card-text">Material - Black acrylic, stainless steel</li>
+                            <li class="card-text">Product Dimensions : 15 x 4 x 3cm : 110 grams</li>
+                        </ul>
+                        </p>
+                        <button type="button" class="bbtn btn btn-outline-warning mx-2" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal1"><ion-icon name="cart-outline"></ion-icon></button> Add to
+                        cart
+                    </div>
+                </div>
+                <div class="card shadow p-3 mb-5" style="width: 23rem;">
+                    <img src="Images/Quiller tools/3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pink mould Quilling tool</h5>
+                        <p class="price">Price- 399/-</p>
+                        <button type="button" class="bbtn btn btn-outline-warning mx-2" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal1"><ion-icon name="cart-outline"></ion-icon></button> Add to
+                        cart
+                    </div>
+                </div>
+                <div class="card shadow p-3 mb-5" style="width: 23rem;">
+                    <img src="Images/Quiller tools/4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Quilling Beginner Kit</h5>
+                        <p class="price">Price- 999/-</p>
+                        <p class="card-text">Everything you need to start your quilling journey.
+                        <ul>
+                            <li class="card-text">480 12"quilling strips - 3mm, 5mm, 7mm & 10mm</li>
+                            <li class="card-text">Quilling board</li>
+                            <li class="card-text">Quilling mould</li>
+                            <li class="card-text">Quilling needle</li>
+                            <li class="card-text">Tweezers - Set of 3</li>
+                            <li class="card-text">30g quilling glue</li>
+                        </ul>
+                        </p>
+                        <button type="button" class="bbtn btn btn-outline-warning mx-2" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal1"><ion-icon name="cart-outline"></ion-icon></button> Add to
+                        cart
+                    </div>
+                </div>
+                <div class="card shadow p-3 mb-5" style="width: 23rem;">
+                    <img src="Images/Quiller tools/5.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Quilling Beginner Kit</h5>
+                        <p class="price">Price- 999/-</p>
+                        <p class="card-text">Everything you need to start your quilling journey.
+                        <ul>
+                            <li class="card-text">480 12"quilling strips - 3mm, 5mm, 7mm & 10mm</li>
+                            <li class="card-text">Quilling board</li>
+                            <li class="card-text">Quilling mould</li>
+                            <li class="card-text">Quilling needle</li>
+                            <li class="card-text">Tweezers - Set of 3</li>
+                            <li class="card-text">30g quilling glue</li>
+                        </ul>
+                        </p>
+                        <button type="button" class="bbtn btn btn-outline-warning mx-2" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal1"><ion-icon name="cart-outline"></ion-icon></button> Add to
+                        cart
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="quiller-strips">
+            <h2>QUILLER STRIPS</h2>
+            <div class="info-text">
+                <div class="card shadow p-3 mb-5" style="width: 23rem;">
+                    <img src="Images/Quilling Strips/1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Quilling Strips set of- 32 colors</h5>
+                        <p class="price">Price- 399/-</p>
+                        <button type="button" class="bbtn btn btn-outline-warning mx-2" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal1"><ion-icon name="cart-outline"></ion-icon></button> Add to
+                        cart
+                    </div>
+                </div>
+                <div class="card shadow p-3 mb-5" style="width: 23rem;">
+                    <img src="Images/Quilling Strips/2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Quilling Strips set of- 32 colors</h5>
+                        <p class="price">Price- 399/-</p>
+                        <button type="button" class="bbtn btn btn-outline-warning mx-2" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal1"><ion-icon name="cart-outline"></ion-icon></button> Add to
+                        cart
+                    </div>
+                </div>
+                <div class="card shadow p-3 mb-5" style="width: 23rem;">
+                    <img src="Images/Quilling Strips/3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Quilling Strips set of- 32 colors</h5>
+                        <p class="price">Price- 399/-</p>
+                        <button type="button" class="bbtn btn btn-outline-warning mx-2" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal1"><ion-icon name="cart-outline"></ion-icon></button> Add to
+                        cart
+                    </div>
+                </div>
+                <div class="card shadow p-3 mb-5" style="width: 23rem;">
+                    <img src="Images/Quilling Strips/5.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Quilling Strips set of- 32 colors</h5>
+                        <p class="price">Price- 399/-</p>
+                        <button type="button" class="bbtn btn btn-outline-warning mx-2" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal1"><ion-icon name="cart-outline"></ion-icon></button> Add to
+                        cart
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="quiller-refill-pack">
+            <h2>QUILLER REFILL PACK</h2>
+            <div class="info-text">
+                <div class="card shadow p-3 mb-5" style="width: 23rem;">
+                    <img src="Images/Quilling Refill pack/1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">DIY Flower Quilling Kit</h5>
+                        <p class="price">Price- 399/-</p>
+                        <button type="button" class="bbtn btn btn-outline-warning mx-2" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal1"><ion-icon name="cart-outline"></ion-icon></button> Add to
+                        cart
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="infinity-storage-box">
+            <h2>INFINITY STORAGE BOX</h2>
+            <div class="info-text">
+                <div class="card shadow p-3 mb-5" style="width: 23rem;">
+                    <img src="Images/Infinity Storage box/1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">DIY Flower Quilling Kit</h5>
+                        <p class="price">Price- 999/-</p>
+                        <p class="card-text" style="text-align: justify;">
+                            Quilling strip box for professional quilling artists, This box comes with a transparent door
+                            that makes your strips safe while travelling and protects your strips from moisture and
+                            dirt. It also has a bottom drawer where you can keep your extra quilling papers and all of
+                            your quilling tools, which are easy to access.
+                        </p>
+                        <button type="button" class="bbtn btn btn-outline-warning mx-2" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal1"><ion-icon name="cart-outline"></ion-icon></button> Add to
+                        cart
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p>Created by : <a class="footer-text" href="https://kph27.github.io/mywebsite/"> <i>Kprabhath27</i></a> |
+                &#169; 2023 </p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
